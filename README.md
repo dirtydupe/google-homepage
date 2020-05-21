@@ -1,3 +1,3 @@
-###The Odin Project
+### The Odin Project
 
-##Exercise - Reconstructing the Google homepage.
+## Exercise - Reconstructing the Google homepage.
