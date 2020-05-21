@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Google</title>
+	</head>
+
+	<style>
+		.logo {
+			padding-top: 109px;
+			text-align: -webkit-center;
+		}
+
+		.search-form {
+			border-radius: 24px;
+			border-top-color: rgb(223, 225, 229);
+    		border-top-style: solid;
+    		border-top-width: 1px;
+    		border-right-color: rgb(223, 225, 229);
+    		border-right-style: solid;
+    		border-right-width: 1px;
+    		border-bottom-color: rgb(223, 225, 229);
+    		border-bottom-style: solid;
+    		border-bottom-width: 1px;
+    		border-left-color: rgb(223, 225, 229);
+    		border-left-style: solid;
+    		border-left-width: 1px;
+    		border-image-source: initial;
+    		border-image-slice: initial;
+    		border-image-width: initial;
+    		border-image-outset: initial;
+    		border-image-repeat: initial;
+			height: 44px;
+			width: 482px;
+			display: flex;
+		}
+
+		.custom-button {
+			background-color: #f2f2f2;
+			border: 1px solid #f2f2f2;
+    		border-radius: 4px;
+    		color: #5F6368;
+    		font-family: arial,sans-serif;
+			font-size: 14px;
+    		margin: 11px 4px;
+    		padding: 0 16px;
+    		line-height: 27px;
+    		height: 36px;
+   			min-width: 54px;
+    		text-align: center;
+    		cursor: pointer;
+    		user-select: none;
+		}
+
+		.sign-in-button {
+			color: #fff;
+			border: 1px solid #4285f4;
+			font-weight: bold;
+    		outline: none;
+			background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+			display: inline-block;
+    		line-height: 28px;
+    		padding: 0 12px;
+			border-radius: 2px;
+			font-family: arial,sans-serif;
+		}
+
+		.headerButton {
+			font-family: arial,sans-serif;
+			text-align: right;
+			font-size: 13px;
+			padding-right: 15px;
+			color: rgba(0,0,0,0.87);
+			display: inline-block;
+    		line-height: 24px;
+    		outline: none;
+    		vertical-align: middle;
+		}
+
+		.footerBar {
+			font-size: 14px;
+			margin-left: -27px;
+			background: #f2f2f2;
+    		line-height: 40px;
+    		min-width: 980px;
+    		border-top: 1px solid #e4e4e4;
+		}
+
+		.footerButton {
+			font-family: arial,sans-serif;
+			color: #5f6368;
+			font-size: 14px;
+			padding-left: 27px;
+    		margin: 0 !important;
+		}
+		
+
+	</style>
+
+	<body>
+		<div class="headerBar">
+			<a class="headerButton">About</a>
+			<a class="headerButton">Store</a>
+			<a class="headerButton">Gmail</a>
+			<a class="headerButton">Images</a>
+			
+			<input class="sign-in-button" type="submit" value="Sign in">
+		</div>
+		
+		<center>
+			<div>
+				<img class="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+			</div>
+
+			<div>
+				<form>
+					<input class="search-form" type="text">
+
+					<input class="custom-button" type="submit" value="Google Search">
+					
+					<input class="custom-button" type="submit" value="I'm Feeling Lucky">
+				</form>
+			</div>
+		</center>
+
+		<footer class="footerBar">
+			<span>
+				<a class="footerButton">Advertising</a>
+				<a class="footerButton">Business</a>
+				<a class="footerButton">How Search works</a>
+			</span>
+
+			<span>
+				<a class="footerButton">Privacy</a>
+				<a class="footerButton">Terms</a>
+				<a class="footerButton">Settings</a>
+			</span>
+		</footer>
+	</body>
+</html>
