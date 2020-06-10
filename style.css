@@ -1,5 +1,7 @@
 .logo {
-    padding-top: 109px;
+    padding-left: 70px;
+    padding-top: 180px;
+    padding-bottom: 20px;
     text-align: -webkit-center;
 }
 
@@ -23,8 +25,9 @@
     border-image-outset: initial;
     border-image-repeat: initial;
     height: 44px;
-    width: 482px;
+    width: 580px;
     display: flex;
+    margin-bottom: 20px;
 }
 
 .custom-button {
@@ -58,48 +61,63 @@
     font-size: 12px;
 }
 
+.headerBar {
+    padding-right: 13px;
+    padding-top: 10px;
+    padding-left: 13px;
+}
+
 .headerButton {
     font-family: arial,sans-serif;
-    text-align: right;
     font-size: 13px;
-    padding-right: 15px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-left: 13px;
     color: rgba(0,0,0,0.87);
-    display: inline-block;
     line-height: 24px;
     outline: none;
     vertical-align: middle;
 }
 
+.headerButton:hover {
+    text-decoration: underline;
+}   
+
+#leftHeader {
+    float: left;
+    left: 0;
+}
+
+#rightHeader {
+    float: right;
+    right: 0;
+}
+
 .footerBar {
-    /*justify-content: space-between;*/
-  /*  min-width: 980px;*/
     position: absolute;
     bottom: 0px;
     background: #f2f2f2;
     line-height: 40px;
     min-width: 980px;
     border-top: 1px solid #e4e4e4;
+    left: 0;
+    right: 0;
 }
 
 #leftFooterBar {
     font-size: 14px;
     margin-left: 5px;
-   /* overflow: hidden;*/  
     left: 0;
     bottom: 0;
- /*   width: 100%;*/
-   /* display: block;*/
 }
 
 #rightFooterBar {
+    float: right;
     font-size: 14px;
     margin-right: 30px;
-    white-space: nowrap;  
-   /* overflow: hidden;  */
+  /*  white-space: nowrap;  */
     right: 0;
     bottom: 0;
-/*    width: 100%;*/
- /*   display: block;*/
 }
 
 .footerButton {
@@ -108,4 +126,8 @@
     font-size: 14px;
     padding-left: 27px;
     margin: 0 !important;
+}
+
+.footerButton:hover {
+    text-decoration: underline;
 }
